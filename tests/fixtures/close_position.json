@@ -1,0 +1,54 @@
+{
+  "slot": 280000006,
+  "blockTime": 1718000006,
+  "transaction": {
+    "signatures": [
+      "8xY8ClosePositionSig666666666666666666666666666666666666666666666666666666666666666666666666666"
+    ],
+    "message": {
+      "accountKeys": [
+        {
+          "pubkey": "7NnzWbgvA2wE1h6m8XN7h5aMbmUu5sCdfh93wM1q9XKL",
+          "signer": false,
+          "writable": true
+        },
+        {
+          "pubkey": "ARwi1S4DaiTG5DX7S4M4ZsrXqpMD1MrTmbu9ue2tpmEq",
+          "signer": false,
+          "writable": true
+        },
+        {
+          "pubkey": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+          "signer": false,
+          "writable": false
+        }
+      ],
+      "instructions": [
+        {
+          "programId": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+          "accounts": [
+            "7NnzWbgvA2wE1h6m8XN7h5aMbmUu5sCdfh93wM1q9XKL",
+            "ARwi1S4DaiTG5DX7S4M4ZsrXqpMD1MrTmbu9ue2tpmEq",
+            "BinLower11111111111111111111111111111111111",
+            "BinUpper11111111111111111111111111111111111",
+            "9uNSXiB9wN3uummTzkhoPpQBaMD35nVLeWVW3VDR6SBR",
+            "9uNSXiB9wN3uummTzkhoPpQBaMD35nVLeWVW3VDR6SBR"
+          ],
+          "data": "MfLxSQLgoGV"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "err": null,
+    "fee": 5000,
+    "preBalances": [
+      4990000000
+    ],
+    "postBalances": [
+      5000000000
+    ],
+    "preTokenBalances": [],
+    "postTokenBalances": []
+  }
+}

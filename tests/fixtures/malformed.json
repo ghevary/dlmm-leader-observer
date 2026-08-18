@@ -1,0 +1,44 @@
+{
+  "slot": 280000009,
+  "blockTime": 1718000009,
+  "transaction": {
+    "signatures": [
+      "MalformedSig999999999999999999999999999999999999999999999999999999999999999999999999999999999"
+    ],
+    "message": {
+      "accountKeys": [
+        {
+          "pubkey": "9uNSXiB9wN3uummTzkhoPpQBaMD35nVLeWVW3VDR6SBR",
+          "signer": true,
+          "writable": true
+        },
+        {
+          "pubkey": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+          "signer": false,
+          "writable": false
+        }
+      ],
+      "instructions": [
+        {
+          "programId": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+          "accounts": [
+            "9uNSXiB9wN3uummTzkhoPpQBaMD35nVLeWVW3VDR6SBR"
+          ],
+          "data": "corrupted_short_data"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "err": null,
+    "fee": 5000,
+    "preBalances": [
+      1000000000
+    ],
+    "postBalances": [
+      999995000
+    ],
+    "preTokenBalances": [],
+    "postTokenBalances": []
+  }
+}
